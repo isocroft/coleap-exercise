@@ -8,7 +8,7 @@
 
 .modalDeatils {
   display: block;
-  width: 500px;
+  width: 300px;
 }
 
 .vehicleItemBox {
@@ -19,7 +19,7 @@
   justify-content: center;
   align-content: flex-start;
   margin: auto;
-  min-height: 30em;
+  min-height: 50em;
   padding: 3em 1em 1em 1em;
   box-sizing: border-box;
 }
@@ -41,7 +41,7 @@
 
 .imgContainer {
   width: 100%;
-  height: 8em;
+  height: 15em;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -74,4 +74,10 @@
 
 .otherTitles {
   color: #888888;
+}
+
+@media only screen and (max-width: 720px) {
+  .imgContainer {
+    height: 8em;
+  }
 }
