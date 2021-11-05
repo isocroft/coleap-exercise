@@ -1,0 +1,59 @@
+.modalWrapper {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  z-index: 50;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  background: rgba(22, 22, 22, 0.4);
+  transition: all 0.4s;
+}
+
+.modalWrapper:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modalHeader {
+  padding: 0 0.5em;
+}
+
+.modalContent {
+  text-align: center;
+  border-radius: 16px;
+  position: relative;
+  display: inline-block; /* @HINT: shink-to-fit trigger */
+  max-width: 100%; /* @HINT: responsive marker */
+  background-color: #f1f1f1;
+  color: #232323;
+  padding: 1.2em 2em;
+}
+
+.modalFooter {
+  padding-top: 1.8em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.modalClose {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #848484;
+  text-decoration: none;
+  padding: 3px;
+  font-size: 150%;
+}
+
+.ctaButton {
+  margin-left: 12px;
+  color: #ffffff;
+  background-color: #5a3693;
+}
