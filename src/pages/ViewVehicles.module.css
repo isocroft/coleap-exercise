@@ -76,7 +76,7 @@
   color: #888888;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 880px) {
   .imgContainer {
     height: 8em;
   }
