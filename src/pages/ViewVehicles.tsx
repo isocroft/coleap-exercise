@@ -47,7 +47,7 @@ const ViewVehicles: React.FC<ViewVehiclesProps> = ({
             return (
               <option
                 key={String(index)}
-                selected={sortOption === defaultSortOption}
+                defaultValue={defaultSortOption}
                 value={sortOption}
               >
                 {sortOption.replace(/^(?:([a-z]+)\.)?/, "")}
@@ -99,11 +99,7 @@ const ViewVehicles: React.FC<ViewVehiclesProps> = ({
             <article>
               <p>
                 <strong>Colors:</strong>{" "}
-                <span>
-                  {selectedVehicle.colors.map((color) => (
-                    <em>{color}</em>
-                  ))}
-                </span>
+                <span>{String(selectedVehicle.colors)}</span>
               </p>
               <p>
                 <strong>Price:</strong>{" "}
