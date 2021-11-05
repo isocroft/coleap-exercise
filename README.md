@@ -8,4 +8,4 @@ This project is a simple React web application that loads a list of vehicles fro
 
 ## Getting Started (Quicker)
 
->Load this [link](codesandbox.io/s/github/isocroft/coleap-exercise) into your browser to see the application running and interct with it.
+>Load this [link](https://9nwy7.csb.app/) into your browser to see the application running and interact with it.
